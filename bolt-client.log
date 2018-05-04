@@ -1,0 +1,33 @@
+2017-09-07 10:51:04.748 INFO   (com.cardconnect.bolt.client.UI main               ) Starting up... 
+2017-09-07 10:51:05.602 INFO   (com.cardconnect.bolt.client.BoltClient sendRequest) Sending request to https://bolt-qa.cardpointe.com:6443/api/v3/connect - body:
+{ "merchantId" : "848484848420 ","hsn" : "13349PP80465298","force" : "true"} 
+2017-09-07 10:51:06.785 INFO   (com.cardconnect.bolt.client.BoltClient sendRequest) Response status: 200 
+2017-09-07 10:51:06.786 INFO   (com.cardconnect.bolt.client.BoltClient sendRequest) Sending request to https://bolt-qa.cardpointe.com:6443/api/v3/ping - body:
+{"merchantId" : "848484848420 ","hsn" : "13349PP80465298"} 
+2017-09-07 10:51:07.126 INFO   (com.cardconnect.bolt.client.BoltClient sendRequest) Response status: 200, body:
+{"connected":true} 
+2017-09-07 10:51:07.197 INFO   (com.cardconnect.bolt.client.BoltClient sendRequest) Sending request to https://bolt-qa.cardpointe.com:6443/api/v3/dateTime - body:
+{"merchantId" : "848484848420 ","hsn" : "13349PP80465298","dateTime" : "2017-09-07T10:51:07.165"} 
+2017-09-07 10:51:07.607 INFO   (com.cardconnect.bolt.client.BoltClient sendRequest) Response status: 200 
+2017-09-07 10:51:07.607 INFO   (com.cardconnect.bolt.client.BoltClient sendRequest) Sending request to https://bolt-qa.cardpointe.com:6443/api/v3/display - body:
+{"merchantId" : "848484848420 ","hsn" : "13349PP80465298","text" : "Connected"} 
+2017-09-07 10:51:08.017 INFO   (com.cardconnect.bolt.client.BoltClient sendRequest) Response status: 200 
+2017-09-07 10:51:12.403 INFO   (com.cardconnect.bolt.client.BoltClient sendRequest) Sending request to https://bolt-qa.cardpointe.com:6443/api/v3/compositeReadCard - body:
+{"merchantId":"848484848420 ","hsn":"13349PP80465298","amount":"100","includeSignature":false,"includeAmountDisplay":true,"includePIN":false,"beep":false,"aid":"credit"} 
+2017-09-07 10:51:17.003 SEVERE (com.cardconnect.bolt.client.BoltClient sendRequest) Response status: 500, body:
+{"errorCode":1,"errorMessage":"No cs hostname for merchantId: 848484848420 "} 
+2017-09-07 10:51:38.022 INFO   (com.cardconnect.bolt.client.BoltClient sendRequest) Sending request to https://bolt-qa.cardpointe.com:6443/api/v3/ping - body:
+{"merchantId" : "848484848420 ","hsn" : "13349PP80465298"} 
+2017-09-07 10:51:38.436 INFO   (com.cardconnect.bolt.client.BoltClient sendRequest) Response status: 200, body:
+{"connected":true} 
+2017-09-07 10:52:08.021 INFO   (com.cardconnect.bolt.client.BoltClient sendRequest) Sending request to https://bolt-qa.cardpointe.com:6443/api/v3/ping - body:
+{"merchantId" : "848484848420 ","hsn" : "13349PP80465298"} 
+2017-09-07 10:52:08.755 INFO   (com.cardconnect.bolt.client.BoltClient sendRequest) Response status: 200, body:
+{"connected":true} 
+2017-09-07 10:52:38.021 INFO   (com.cardconnect.bolt.client.BoltClient sendRequest) Sending request to https://bolt-qa.cardpointe.com:6443/api/v3/ping - body:
+{"merchantId" : "848484848420 ","hsn" : "13349PP80465298"} 
+2017-09-07 10:52:53.163 INFO   (com.cardconnect.bolt.client.BoltClient sendRequest) Response status: 200, body:
+{"connected":false} 
+2017-09-07 10:52:53.875 INFO   (com.cardconnect.bolt.client.UI stop               ) Shutting down... 
+2017-09-07 10:52:53.876 INFO   (com.cardconnect.bolt.client.BoltClient sendRequest) Sending request to https://bolt-qa.cardpointe.com:6443/api/v3/disconnect - body:
+{"merchantId" : "848484848420 ","hsn" : "13349PP80465298"} 
