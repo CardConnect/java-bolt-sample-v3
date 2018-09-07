@@ -9,10 +9,10 @@ Log output will end up in bolt.log in the current directory.
 
 ### Example client.properties:
 ```java
-base.url = https://bolt-qa.cardpointe.com:6443/api/v3
-api.key = aDlzqEdIK1EWFl6NqlEV2I1Iz0RghqRNdvFu19fWe2s=
-merchant.id = 888888888880
-hsn = TMCSCEMVSIG
+base.url = {obtain from support team}
+api.key = {obtain from support team}
+merchant.id = {obtain from support team}
+hsn = {obtain from support team}
 connect.force = true
 readcard.include.signature = true
 readcard.amount.display = true
